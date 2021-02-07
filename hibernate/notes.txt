@@ -1,0 +1,6 @@
+HQL --> Hibernate Query Language
+from Student -> SELECT * FROM student
+from Student s where s.name = "sait" and s.age = 38;
+from Student s where s.name LIKE '%ai%';
+form Student s ORDER BY s.name;
+select s.name from Student s GROUP BY s.name; //
